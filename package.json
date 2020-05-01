@@ -1,9 +1,15 @@
 {
-  "name": "beijingguanw",
+  "name": "zyb",
   "version": "1.0.0",
   "description": "北京尚朝信息科技有限公司，基于品牌商品数据，提供各国免税店的品牌商品信息浏览，包括商品名称，报价，图片，优惠信息，折扣信息",
   "author": "zyb@weminer.io",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build -a",
